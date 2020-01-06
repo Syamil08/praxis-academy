@@ -1,0 +1,45 @@
+Beberapa utilities yang saya coba
+
+1. Open -> sebuah fungsi yang diberikan oleh mac os untuk membuka suatu direktori atau aplikasi yang ada dalam komputer kita dengan menggunakan perintah :
+	a. open "filename" -> contoh : open /Application/Safari.app
+2. pbcopy dan pbpaste -> digunakan untuk melakukan perintah menyalin suatu file atau directory kemudian juga bisa digunakan untuk mem-paste file / directory tersebut dengan perintah :
+	a. pbcopy < "nama file" -> pbcopy < coba.txt -> ini digunakan untuk melakukan perintah copy pada suatu file
+	b. pbpaste >> "nama file baru untuk di paste" -> pbpaste >> cobaa.txt -> perintah ini digunakan untuk melakukan penyalinan atau paste dari apa yang sudah kita copy tadi dan kemudian kita beri nama file baru 
+	c. ls ~ | pbcopy -> digunakan untuk melakukan perintah copy dari semua list yang ada pada directory home anda
+3. mdfind -> sebuah perintah yang berfungsi untuk melakukan pencarian suatu file atau directory yang ada pada komputer kita dengan cara melakukan perintah :
+	a. mdfind -onlyin "direktori" "masukkan apa yang ingin dicari" -> contoh : mdfind -onlyin ~/Documents/Belajar jaringan -> maka komputer akan melakukan pencarian pada direktori "Documents/Belajar" dengan kata kunci jaringan maka setelah itu akan muncul path sesuai dengan kata kunci yang dimasukkan.
+4. screencapture -> sebuah perintah yang digunakan untuk mengambil sebuah tangkapan layar dengan cara memberikan perintah :
+	a. screencapture -C -M "nama file gambar" -> digunakan untuk mengambil tangkapan layar pada laptop kita kemudian dari hasil tangkapan layar itu akan dikirim ke email
+	b. screencapture -c -W -> digunakan untuk mengambil sebuah tangkapan layar setelah 10 detik yang mana nantinya akan langsung keluar image tersebut di preview
+5. launchctl -> sebuah perintah yang bisa digunakan untuk melakukan load suatu scripst system secara otomatis dengan cara melakukan perintah :
+	a. sudo launchctl list -> digunakan untuk melihat sebuah list yang ada didalam system kita yang masih berjalan apa saja
+6. say -> sebuah perintah yang digunakan untuk melakukan convert dari text to speech dengan cara melakukan perintah :
+	a. say "Hello World" 
+7. diskutil -> digunakan untuk menampilkan informasi mengenai penyimpanan dalam laptop kita dengan cara melakukan perintah :
+	a. diskutil list -> akan menampilkan sejumlah list dari penyimpanan yang ada di laptop kita.
+8. cd -> sebuah perintah untuk pindah direktori atau masuk ke direktori dengan perintah :
+	a. cd "path/to/directory/"
+9. ls -> sebuah perintah untuk menampilkan seluruh list yang kita miliki dalam laptop kita dengan perintah :
+	a. ls "path/to/directory/"
+10. cp -> sebuah perintah untuk melakukan copy dan bisa digunakan untuk mengcopy ke direktori yang lain dengan perintah :
+	a. cp "filename" "newfilename"
+11. mv -> sebuah perintah yang dilakukan untuk melakukan pemindahan file
+	a. mv "filename" "path/to/new/file/location"
+12. rename file with mv -> melakukan penggantian nama dengan perintah :
+	a. mv "path/to/filename" "path/to/newfilename"
+13. mkdir -> digunakan untuk membuat sebuah dirketori dengan cara :
+	a. mkdir "path/to/new/directory"
+14. rmdir -> digunakan untuk menghapus sebuah direktori dengan perintah :
+	a. rmdir "path/to/directory"
+15. rm -R -> untuk menghapus sebuah child / anak dari isi directory tersebut dengan perintah :
+	a. rm -R "/path/to/root/directory"
+16. sudo -> melakukan perintah untuk menjadi superuser dengan cara :
+ 	a. sudo "command"
+17. top -> untuk melihat list dari proses yang sedang aktif di laptop kita dengan perintah :
+	a. top
+18. clear -> perintah untuk menghapus atau membersihkan perintah dalam terminal kita dengan cara :
+	a. clear
+19. help -> perintah untuk melihat bantuan dengan cara :
+	a. help
+20. whatis -> sebuah perintah untuk melihat deskripsi dari sebuah command dengan cara :
+	a. whatis
