@@ -6,7 +6,7 @@ class HelloWorld{
         // pembuatan variabel , tipe data, konstanta
         int a = 2,b = 2,total = 0,totalloop=0;
         String pesan = "Hallo Dunia";
-        Double PI = 3.14;
+        final Double PI = 3.14;
         
         // pemnggunaan ekspresi
         total = a + b;
