@@ -1,6 +1,6 @@
 Dalam latihan kali ini yang dilakukan adalah melakukan penginstalan terlebih dahulu untuk jdk dan visual studio code, dibawah ini akan diberikan sebuah gambar dan cara pengecekan jika sudah melakukan penginstalan.
 
-
+<img width="570" alt="Screen Shot 2020-01-07 at 14 01 00" src="https://user-images.githubusercontent.com/38149043/71882210-984f9900-3166-11ea-9d28-c46b48b968ef.png">
 
 Selanjutnya untuk point nomor 11 - 14 
 
@@ -23,6 +23,11 @@ Selanjutnya untuk point nomor 11 - 14
 	-> pada bagian ini kita akan mencoba menjalankan file yang sudah dibuat menjadi ber-ekstensi JAR dengan cara seperti dibawah ini :
 	java -jar HelloWorld.jar -> maka setelah kita menjalankan perintah itu akan menhasilkan output dari kode yang telah kita buat.
 	 
+	 <img width="1070" alt="Screen Shot 2020-01-07 at 14 22 15" src="https://user-images.githubusercontent.com/38149043/71882409-ff6d4d80-3166-11ea-84ea-983ddbb397c7.png">
+	
+	<img width="1055" alt="Screen Shot 2020-01-07 at 14 31 40" src="https://user-images.githubusercontent.com/38149043/71882411-009e7a80-3167-11ea-8c49-78b077cc4334.png">
+	
+	<img width="1061" alt="Screen Shot 2020-01-07 at 15 31 18" src="https://user-images.githubusercontent.com/38149043/71882412-01371100-3167-11ea-9aaa-a4183a355e6d.png">
 
 12. Struktur dasar code dalam bahasa pemrograman java
 	-> struktur dari kode dalam bahasa java seperti berikut ini :
