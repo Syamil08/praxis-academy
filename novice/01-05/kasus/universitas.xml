@@ -1,0 +1,17 @@
+<?xml version = "1.0"?>
+<universitas>    
+    <fakultas kodefakultas = "101">
+        <nama>Fakultas Teknologi Industri</nama>
+        <jumlahmahasiswa>1000</jumlahmahasiswa>
+    </fakultas>
+
+    <fakultas kodefakultas = "102">
+        <nama>Fakultas Teknik Sipil dan Perancangan</nama>
+        <jumlahmahasiswa>20000</jumlahmahasiswa>
+    </fakultas>
+
+    <fakultas kodefakultas = "103">
+        <nama>Fakultas Ilmu Sosial</nama>
+        <jumlahmahasiswa>10000</jumlahmahasiswa>
+    </fakultas>
+</universitas>
