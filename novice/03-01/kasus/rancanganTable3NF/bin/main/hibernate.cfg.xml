@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://127.0.0.1:26257/rents?sslmode=disable</property>
+        <property name="connection.username">root</property>
+
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.PostgreSQL94Dialect</property>
+
+        <!-- Delete and recreate the database schema on startup, destroying previous data. -->
+        <property name="hbm2ddl.auto">create</property>
+
+        <mapping class ="rancanganTable3NF.Salutation" />
+        <mapping class ="rancanganTable3NF.Membership" />
+        <mapping class ="rancanganTable3NF.Movies" />
+    </session-factory>
+</hibernate-configuration>
