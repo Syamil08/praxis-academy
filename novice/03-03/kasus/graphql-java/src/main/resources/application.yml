@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: graphql-java
+  graphql:
+    enabled: true
+    path: /graphql
